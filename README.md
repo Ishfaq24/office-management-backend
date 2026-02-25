@@ -32,7 +32,7 @@ This project focuses on clean architecture, scalability, and security.
 - dotenv
 - REST API Architecture
 
----
+```
 
 ## 📂 Project Structure
 
@@ -50,8 +50,7 @@ office-management-backend/
 ├── .env
 ├── package.json
 └── server.js
-
----
+```
 
 ## 🔐 Authentication & Security
 
@@ -61,7 +60,7 @@ office-management-backend/
 - Protected routes via middleware
 - Environment variable configuration
 
----
+```
 
 ## 📌 Core Features
 
@@ -93,7 +92,7 @@ office-management-backend/
 - Manage users
 - Role permissions
 
----
+```
 
 ## ⚙️ Installation & Setup
 
@@ -101,3 +100,20 @@ office-management-backend/
 ```bash
 git clone https://github.com/ishfaq24/office-management-backend.git
 cd office-management-backend
+```
+2. Install Dependencies
+npm install
+3. Configure Environment Variables
+
+Create a .env file:
+
+PORT=5000
+DATABASE_URL=your_database_url
+JWT_SECRET=your_secret_key
+4. Start the Server
+npm run dev
+
+Server will run at:
+http://localhost:5000
+
+📡 Sample API Endpoints
